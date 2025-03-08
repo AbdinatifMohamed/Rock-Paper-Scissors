@@ -1,0 +1,8 @@
+User writes 1 for computer, or 2 for another human.
+1st User selects R, P, or S. 
+Computer Chosen: Randomized 1-3 for R,P,S;
+Another Human Chosen: selects R, P, or S. 
+Rules:
+R beats S
+P beats R
+S beats P
