@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="game">
+        <div class="score">
+            <div class="scoredesign">
+                <h1>Human</h1>
+                <p class="hscore">0</p>
+            </div>
+            <div class="scoredesign">
+                <h1>Computer</h1>
+                <p class="cscore">0</p>
+            </div>
+        </div>
+        <div class="display">
+            <h1 class="result">Start game...</h1>
+        </div>
+        <div class="buttons">
+            <button class="rock" data-choice="R">Rock</button>
+            <button class="paper" data-choice="P">Paper</button>
+            <button class="scissor" data-choice="S">Scissors</button>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
